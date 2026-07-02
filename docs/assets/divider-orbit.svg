@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 28" width="1200" height="28" role="img" aria-label="orbit divider">
+  <defs>
+    <linearGradient id="dl" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#0d0a26" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#60a5fa" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#22d3ee" stop-opacity="0.9"/>
+      <stop offset="0.8" stop-color="#a78bfa" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#0d0a26" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="g" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="1.5"/></filter>
+  </defs>
+  <line x1="0" y1="14" x2="1200" y2="14" stroke="url(#dl)" stroke-width="1.4"/>
+  <g fill="#e2e8f0">
+    <circle cx="120" cy="14" r="1" opacity="0.6"/>
+    <circle cx="360" cy="14" r="1.2" opacity="0.5"/>
+    <circle cx="840" cy="14" r="1" opacity="0.6"/>
+    <circle cx="1080" cy="14" r="1.2" opacity="0.5"/>
+  </g>
+  <circle cx="0" cy="14" r="3.2" fill="#22d3ee" filter="url(#g)">
+    <animate attributeName="cx" values="120;1080;120" dur="9s" repeatCount="indefinite"/>
+    <animate attributeName="fill" values="#22d3ee;#e879f9;#22d3ee" dur="9s" repeatCount="indefinite"/>
+  </circle>
+</svg>
