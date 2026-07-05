@@ -1,0 +1,44 @@
+name: Publish to npm
+
+# Publishes the `constellai` package to npmjs whenever a GitHub Release is published.
+# Requires a repo secret `NPM_TOKEN` — an npm **Automation** access token
+# (npmjs.com → Access Tokens → Generate New Token → Automation). Without it, the
+# `npm publish` step fails (the rest of the release is unaffected); add the secret
+# and re-run this workflow (Actions → Publish to npm → Run workflow), or publish by hand.
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch: {} # manual re-run (e.g. right after adding NPM_TOKEN)
+
+permissions:
+  contents: read
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      # Build the compiled runtime the npm tarball ships (.next); drizzle/ migrations
+      # are already committed in this (public) repo. `files` in package.json selects the tarball.
+      - name: Build release
+        run: pnpm run build:release
+
+      - name: Publish to npm
+        run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
