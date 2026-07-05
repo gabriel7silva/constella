@@ -1,0 +1,41 @@
+# Dependencies & build output
+node_modules
+.next
+dist
+out
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+next-env.d.ts
+
+# Runtime root (workspaces, models, llama bin, embeddings) + database
+.constella
+*.db
+*.db-*
+
+# Secrets & local env (keep the example)
+.env
+.env.*
+!.env.example
+
+# Drizzle migrations (meta + .sql) — regenerated from src/db/schema.ts, so NOT committed to this dev
+# repo. They ARE generated at publish time and shipped (npm tarball + public repo) so the compiled
+# distribution builds a fresh end-user DB with `drizzle-kit migrate` (no source schema required).
+drizzle/
+
+# Editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temp / scratch artifacts (never commit)
+temp_*
+*.log
+*.tgz
+.cache
+coverage
+
+# Local backups produced by the updater
+backups/
+
+# Local release scripts (operator-only: push dev/public, npm publish, pack + clean-room test)
+release/
