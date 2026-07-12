@@ -1,0 +1,3443 @@
+[
+  {
+    "name": "animation-motion",
+    "path": "design/animation-motion/SKILL.md",
+    "domain": "design",
+    "category": "design",
+    "description": "Motion design principles and the Web Animations API for purposeful, performant UI animation; consult when adding transitions or animated feedback.",
+    "tags": [
+      "animation",
+      "motion",
+      "web-animations-api",
+      "easing",
+      "transitions"
+    ],
+    "official_sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/API/Web_Animations_API",
+      "https://m3.material.io/styles/motion/overview"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "color-and-typography",
+    "path": "design/color-and-typography/SKILL.md",
+    "domain": "design",
+    "category": "design",
+    "description": "Color systems, type scale, and WCAG contrast ratios for legible, accessible UI; consult when defining palettes, text styles, or checking contrast.",
+    "tags": [
+      "color",
+      "typography",
+      "contrast",
+      "wcag",
+      "accessibility",
+      "type-scale"
+    ],
+    "official_sources": [
+      "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+      "https://m3.material.io/styles/color/system/overview"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "css-techniques",
+    "path": "design/css-techniques/SKILL.md",
+    "domain": "design",
+    "category": "design",
+    "description": "Modern CSS layout and styling — grid, flexbox, container queries, custom properties; consult when building responsive, maintainable styles.",
+    "tags": [
+      "css",
+      "grid",
+      "flexbox",
+      "container-queries",
+      "custom-properties"
+    ],
+    "official_sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS",
+      "https://web.dev/learn/css"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "design-systems",
+    "path": "design/design-systems/SKILL.md",
+    "domain": "design",
+    "category": "design",
+    "description": "Design tokens, reusable components, and governance for scalable UI; consult when building or maintaining a shared component library.",
+    "tags": [
+      "design-systems",
+      "design-tokens",
+      "components",
+      "governance",
+      "material-design"
+    ],
+    "official_sources": [
+      "https://m3.material.io/foundations/design-tokens",
+      "https://www.designsystems.com/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "gradients",
+    "path": "design/gradients/SKILL.md",
+    "domain": "design",
+    "category": "design",
+    "description": "Tasteful CSS gradients — linear, radial, conic, repeating, and layered meshes; consult when adding depth or color washes to backgrounds.",
+    "tags": [
+      "css",
+      "gradients",
+      "backgrounds",
+      "color",
+      "mesh"
+    ],
+    "official_sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_images/Using_CSS_gradients",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "graphic-design-basics",
+    "path": "design/graphic-design-basics/SKILL.md",
+    "domain": "design",
+    "category": "design",
+    "description": "Visual hierarchy, grids, contrast, and spacing fundamentals for UI; consult when composing layouts and establishing visual order.",
+    "tags": [
+      "visual-hierarchy",
+      "grids",
+      "contrast",
+      "spacing",
+      "layout"
+    ],
+    "official_sources": [
+      "https://m3.material.io/foundations",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "microinteractions",
+    "path": "design/microinteractions/SKILL.md",
+    "domain": "design",
+    "category": "design",
+    "description": "Trigger-feedback pairs, state cues, and transitions that confirm actions; consult when designing button states, validation, and small feedback moments.",
+    "tags": [
+      "microinteractions",
+      "feedback",
+      "transitions",
+      "state",
+      "ux"
+    ],
+    "official_sources": [
+      "https://www.nngroup.com/articles/microinteractions/",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/transition"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "responsive-layout",
+    "path": "design/responsive-layout/SKILL.md",
+    "domain": "design",
+    "category": "design",
+    "description": "Fluid, breakpoint, and intrinsic layout strategies for any screen; consult when making pages and components adapt across viewports and containers.",
+    "tags": [
+      "responsive",
+      "layout",
+      "css-grid",
+      "media-queries",
+      "container-queries",
+      "intrinsic"
+    ],
+    "official_sources": [
+      "https://web.dev/learn/design/",
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "ui-ux-principles",
+    "path": "design/ui-ux-principles/SKILL.md",
+    "domain": "design",
+    "category": "design",
+    "description": "Usability heuristics, affordances, and laws of UX to evaluate and design interfaces; consult when reviewing or building user-facing flows.",
+    "tags": [
+      "usability",
+      "heuristics",
+      "ux",
+      "laws-of-ux",
+      "interaction-design"
+    ],
+    "official_sources": [
+      "https://www.nngroup.com/articles/ten-usability-heuristics/",
+      "https://lawsofux.com/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "api-design-rest-graphql",
+    "path": "engineering/architecture/api-design-rest-graphql/SKILL.md",
+    "domain": "engineering",
+    "category": "architecture",
+    "description": "REST design grounded in HTTP semantics (methods, status, idempotency) and GraphQL schema/query design; read when designing or reviewing an API.",
+    "tags": [
+      "api-design",
+      "rest",
+      "graphql",
+      "http",
+      "schema"
+    ],
+    "official_sources": [
+      "https://www.rfc-editor.org/rfc/rfc9110.html",
+      "https://graphql.org/learn/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "caching-strategies",
+    "path": "engineering/architecture/caching-strategies/SKILL.md",
+    "domain": "engineering",
+    "category": "architecture",
+    "description": "Cache layers, cache-aside, TTLs, and invalidation to cut latency and load; read before adding a cache or debugging stale data.",
+    "tags": [
+      "caching",
+      "cache-aside",
+      "ttl",
+      "invalidation",
+      "redis"
+    ],
+    "official_sources": [
+      "https://aws.amazon.com/caching/",
+      "https://redis.io/docs/latest/develop/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "data-modeling",
+    "path": "engineering/architecture/data-modeling/SKILL.md",
+    "domain": "engineering",
+    "category": "architecture",
+    "description": "Relational and document data modeling — tables, keys, constraints, normalization, and when to denormalize; read before designing a schema.",
+    "tags": [
+      "data-modeling",
+      "relational",
+      "normalization",
+      "constraints",
+      "schema-design"
+    ],
+    "official_sources": [
+      "https://www.postgresql.org/docs/current/ddl.html"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "message-queues-async",
+    "path": "engineering/architecture/message-queues-async/SKILL.md",
+    "domain": "engineering",
+    "category": "architecture",
+    "description": "Async messaging with queues and logs — delivery guarantees, ordering, and idempotency (Kafka, RabbitMQ); read before decoupling services.",
+    "tags": [
+      "messaging",
+      "queues",
+      "kafka",
+      "rabbitmq",
+      "idempotency"
+    ],
+    "official_sources": [
+      "https://kafka.apache.org/documentation/",
+      "https://www.rabbitmq.com/tutorials"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "scalability-reliability",
+    "path": "engineering/architecture/scalability-reliability/SKILL.md",
+    "domain": "engineering",
+    "category": "architecture",
+    "description": "Scaling, SLIs/SLOs, error budgets, and resilience tactics (timeouts, retries with backoff/jitter, load shedding); read before hardening a service.",
+    "tags": [
+      "scalability",
+      "reliability",
+      "slo",
+      "resilience",
+      "retries"
+    ],
+    "official_sources": [
+      "https://sre.google/books/",
+      "https://aws.amazon.com/builders-library/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "software-architecture-patterns",
+    "path": "engineering/architecture/software-architecture-patterns/SKILL.md",
+    "domain": "engineering",
+    "category": "architecture",
+    "description": "Layered, hexagonal, event-driven, and microservices patterns plus cloud design patterns; read when choosing or structuring application architecture.",
+    "tags": [
+      "architecture-patterns",
+      "microservices",
+      "event-driven",
+      "layered",
+      "cloud-patterns"
+    ],
+    "official_sources": [
+      "https://martinfowler.com/architecture/",
+      "https://learn.microsoft.com/azure/architecture/patterns/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "system-design-fundamentals",
+    "path": "engineering/architecture/system-design-fundamentals/SKILL.md",
+    "domain": "engineering",
+    "category": "architecture",
+    "description": "Latency, throughput, partitioning, replication, CAP and consistency trade-offs for designing large-scale systems; read before sizing or scaling.",
+    "tags": [
+      "system-design",
+      "scalability",
+      "cap-theorem",
+      "distributed-systems",
+      "trade-offs"
+    ],
+    "official_sources": [
+      "https://github.com/donnemartin/system-design-primer",
+      "https://aws.amazon.com/architecture/well-architected/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "backend/auth-and-authorization",
+    "path": "engineering/backend/auth-and-authorization/SKILL.md",
+    "domain": "engineering",
+    "category": "engineering",
+    "description": "Authentication vs authorization, OAuth 2.0 roles and tokens, and access-control models (RBAC/ABAC) with OWASP enforcement guidance.",
+    "tags": [
+      "auth",
+      "authentication",
+      "authorization",
+      "oauth2",
+      "rbac",
+      "abac",
+      "security"
+    ],
+    "official_sources": [
+      "https://oauth.net/2/",
+      "https://cheatsheetseries.owasp.org/cheatsheets/Authorization_Cheat_Sheet.html"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "backend/backend-fundamentals",
+    "path": "engineering/backend/backend-fundamentals/SKILL.md",
+    "domain": "engineering",
+    "category": "engineering",
+    "description": "Core backend ideas — HTTP request/response, statelessness, layered architecture, and the twelve-factor app methodology for cloud services.",
+    "tags": [
+      "backend",
+      "http",
+      "stateless",
+      "twelve-factor",
+      "architecture",
+      "web"
+    ],
+    "official_sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/HTTP",
+      "https://12factor.net/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "backend/observability-logging",
+    "path": "engineering/backend/observability-logging/SKILL.md",
+    "domain": "engineering",
+    "category": "engineering",
+    "description": "Observability via the three signals (logs, metrics, traces) with OpenTelemetry, plus SRE practices like SLOs and the four golden signals.",
+    "tags": [
+      "observability",
+      "logging",
+      "metrics",
+      "tracing",
+      "opentelemetry",
+      "sre",
+      "slo"
+    ],
+    "official_sources": [
+      "https://opentelemetry.io/docs/",
+      "https://sre.google/books/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "accessibility-wcag",
+    "path": "engineering/frontend/accessibility-wcag/SKILL.md",
+    "domain": "engineering",
+    "category": "frontend",
+    "description": "Meeting WCAG 2.2 success criteria and applying ARIA Authoring Practices for accessible UI; consult when building or auditing component accessibility.",
+    "tags": [
+      "accessibility",
+      "a11y",
+      "wcag",
+      "aria",
+      "w3c",
+      "wai"
+    ],
+    "official_sources": [
+      "https://www.w3.org/WAI/WCAG22/quickref/",
+      "https://www.w3.org/WAI/ARIA/apg/",
+      "https://github.com/w3c/wcag"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "frontend-architecture",
+    "path": "engineering/frontend/frontend-architecture/SKILL.md",
+    "domain": "engineering",
+    "category": "frontend",
+    "description": "Structuring component boundaries, data flow, and code-splitting in modern frontend apps; consult when designing or refactoring UI architecture.",
+    "tags": [
+      "components",
+      "data-flow",
+      "code-splitting",
+      "react",
+      "architecture",
+      "lazy-loading"
+    ],
+    "official_sources": [
+      "https://react.dev/learn",
+      "https://www.patterns.dev/",
+      "https://github.com/react/react"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "rendering-strategies-ssr-csr",
+    "path": "engineering/frontend/rendering-strategies-ssr-csr/SKILL.md",
+    "domain": "engineering",
+    "category": "frontend",
+    "description": "Trade-offs between SSR, CSR, static rendering, and streaming for web apps; consult when choosing where and when UI is rendered.",
+    "tags": [
+      "ssr",
+      "csr",
+      "ssg",
+      "streaming",
+      "hydration",
+      "rendering",
+      "nextjs"
+    ],
+    "official_sources": [
+      "https://web.dev/articles/rendering-on-the-web",
+      "https://nextjs.org/docs/app/getting-started/server-and-client-components",
+      "https://github.com/vercel/next.js"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "state-management",
+    "path": "engineering/frontend/state-management/SKILL.md",
+    "domain": "engineering",
+    "category": "frontend",
+    "description": "Choosing between local UI state, server/async state, and global state in React apps; consult when deciding where data should live and how it updates.",
+    "tags": [
+      "state",
+      "react",
+      "tanstack-query",
+      "server-state",
+      "context",
+      "reducers"
+    ],
+    "official_sources": [
+      "https://react.dev/learn/managing-state",
+      "https://tanstack.com/query/latest",
+      "https://github.com/TanStack/query"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "backend-performance",
+    "path": "engineering/performance/backend-performance/SKILL.md",
+    "domain": "engineering",
+    "category": "performance",
+    "description": "Design resilient, high-throughput backends — timeouts, retries with backoff, connection pooling, concurrency limits, and avoiding N+1 queries.",
+    "tags": [
+      "backend",
+      "concurrency",
+      "timeouts",
+      "retries",
+      "connection-pool",
+      "n+1",
+      "scalability"
+    ],
+    "official_sources": [
+      "https://aws.amazon.com/builders-library/",
+      "https://aws.amazon.com/builders-library/timeouts-retries-and-backoff-with-jitter/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "database-query-optimization",
+    "path": "engineering/performance/database-query-optimization/SKILL.md",
+    "domain": "engineering",
+    "category": "performance",
+    "description": "Speed up SQL with proper indexing and EXPLAIN — read query plans, understand B-tree index lookups, and fix slow access paths.",
+    "tags": [
+      "sql",
+      "indexing",
+      "explain",
+      "query-plan",
+      "postgresql",
+      "b-tree",
+      "optimization"
+    ],
+    "official_sources": [
+      "https://use-the-index-luke.com/",
+      "https://www.postgresql.org/docs/current/using-explain.html"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "profiling-and-benchmarking",
+    "path": "engineering/performance/profiling-and-benchmarking/SKILL.md",
+    "domain": "engineering",
+    "category": "performance",
+    "description": "Measure before optimizing — use CPU/memory profilers and benchmarks to find real bottlenecks instead of guessing; covers Node.js and Chrome DevTools.",
+    "tags": [
+      "profiling",
+      "benchmarking",
+      "cpu-profile",
+      "flame-graph",
+      "nodejs",
+      "devtools",
+      "memory-leak"
+    ],
+    "official_sources": [
+      "https://nodejs.org/en/learn/getting-started/profiling",
+      "https://developer.chrome.com/docs/devtools/performance"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "web-performance-core-vitals",
+    "path": "engineering/performance/web-performance-core-vitals/SKILL.md",
+    "domain": "engineering",
+    "category": "performance",
+    "description": "Measure and optimize Core Web Vitals (LCP, INP, CLS) for real-user front-end performance; consult when tuning page load and interactivity.",
+    "tags": [
+      "web-vitals",
+      "lcp",
+      "inp",
+      "cls",
+      "frontend",
+      "rum",
+      "performance"
+    ],
+    "official_sources": [
+      "https://web.dev/articles/vitals",
+      "https://github.com/GoogleChrome/web-vitals"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "clean-code",
+    "path": "engineering/practices/clean-code/SKILL.md",
+    "domain": "engineering",
+    "category": "practices",
+    "description": "Writing readable, consistent code — naming, small focused functions, cohesion, and following a project style guide.",
+    "tags": [
+      "clean-code",
+      "readability",
+      "naming",
+      "style-guide",
+      "functions"
+    ],
+    "official_sources": [
+      "https://google.github.io/styleguide/",
+      "https://github.com/google/styleguide"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "code-optimization",
+    "path": "engineering/practices/code-optimization/SKILL.md",
+    "domain": "engineering",
+    "category": "practices",
+    "description": "Making code faster the right way — measure first, fix algorithms before micro-optimizing, and validate with benchmarks.",
+    "tags": [
+      "performance",
+      "optimization",
+      "profiling",
+      "benchmarking",
+      "algorithms"
+    ],
+    "official_sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/Performance",
+      "https://en.algorithmica.org/hpc/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "code-review-practices",
+    "path": "engineering/practices/code-review-practices/SKILL.md",
+    "domain": "engineering",
+    "category": "practices",
+    "description": "How to review and author code changes — what reviewers look for, review speed, and writing useful, kind review comments.",
+    "tags": [
+      "code-review",
+      "pull-request",
+      "review-checklist",
+      "collaboration"
+    ],
+    "official_sources": [
+      "https://google.github.io/eng-practices/review/",
+      "https://github.com/google/eng-practices"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "git-workflow",
+    "path": "engineering/practices/git-workflow/SKILL.md",
+    "domain": "engineering",
+    "category": "practices",
+    "description": "Day-to-day Git collaboration — branching, focused commits, pull requests, and Conventional Commits message format.",
+    "tags": [
+      "git",
+      "version-control",
+      "branching",
+      "commits",
+      "conventional-commits",
+      "pull-request"
+    ],
+    "official_sources": [
+      "https://git-scm.com/docs",
+      "https://www.conventionalcommits.org/en/v1.0.0/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "refactoring",
+    "path": "engineering/practices/refactoring/SKILL.md",
+    "domain": "engineering",
+    "category": "practices",
+    "description": "Improving code's internal structure without changing observable behavior, via small steps verified by tests.",
+    "tags": [
+      "refactoring",
+      "code-smells",
+      "tests",
+      "technical-debt"
+    ],
+    "official_sources": [
+      "https://refactoring.com/",
+      "https://refactoring.com/catalog/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "appsec-fundamentals",
+    "path": "engineering/security/appsec-fundamentals/SKILL.md",
+    "domain": "engineering",
+    "category": "security",
+    "description": "Application security fundamentals — OWASP Proactive Controls, input validation, output encoding, and secure-by-default design; consult when building any feature.",
+    "tags": [
+      "appsec",
+      "proactive-controls",
+      "input-validation",
+      "output-encoding",
+      "owasp"
+    ],
+    "official_sources": [
+      "https://top10proactive.owasp.org/",
+      "https://cheatsheetseries.owasp.org/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "dependency-supply-chain",
+    "path": "engineering/security/dependency-supply-chain/SKILL.md",
+    "domain": "engineering",
+    "category": "security",
+    "description": "Manage dependency and supply-chain risk — scan for known-vulnerable components (OWASP Dependency-Check) and verify build provenance with SLSA levels.",
+    "tags": [
+      "supply-chain",
+      "dependencies",
+      "sca",
+      "slsa",
+      "provenance",
+      "owasp"
+    ],
+    "official_sources": [
+      "https://owasp.org/www-project-dependency-check/",
+      "https://slsa.dev/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "owasp-asvs",
+    "path": "engineering/security/owasp-asvs/SKILL.md",
+    "domain": "engineering",
+    "category": "security",
+    "description": "OWASP Application Security Verification Standard 5.0 — testable security requirements organized by chapter and verification level; consult to define or verify appsec requirements.",
+    "tags": [
+      "owasp",
+      "asvs",
+      "security-requirements",
+      "verification",
+      "appsec"
+    ],
+    "official_sources": [
+      "https://owasp.org/www-project-application-security-verification-standard/",
+      "https://github.com/OWASP/ASVS"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "owasp-top-10",
+    "path": "engineering/security/owasp-top-10/SKILL.md",
+    "domain": "engineering",
+    "category": "security",
+    "description": "The OWASP Top 10 web application security risks (2025 edition) and how to mitigate them; consult when threat-modeling or hardening web apps.",
+    "tags": [
+      "owasp",
+      "web-security",
+      "vulnerabilities",
+      "threat-modeling",
+      "appsec"
+    ],
+    "official_sources": [
+      "https://owasp.org/Top10/",
+      "https://github.com/OWASP/Top10"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "secrets-management",
+    "path": "engineering/security/secrets-management/SKILL.md",
+    "domain": "engineering",
+    "category": "security",
+    "description": "Store, rotate, and never commit secrets — vaults over source/env vars, encryption, least privilege, rotation, and secret detection per OWASP guidance.",
+    "tags": [
+      "secrets",
+      "vault",
+      "rotation",
+      "credentials",
+      "owasp"
+    ],
+    "official_sources": [
+      "https://cheatsheetseries.owasp.org/cheatsheets/Secrets_Management_Cheat_Sheet.html",
+      "https://github.com/OWASP/CheatSheetSeries"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "secure-auth-sessions",
+    "path": "engineering/security/secure-auth-sessions/SKILL.md",
+    "domain": "engineering",
+    "category": "security",
+    "description": "Safe authentication and session management per OWASP cheat sheets — passwords, MFA, session IDs, secure cookies, regeneration, and timeouts.",
+    "tags": [
+      "authentication",
+      "sessions",
+      "mfa",
+      "cookies",
+      "owasp"
+    ],
+    "official_sources": [
+      "https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html",
+      "https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "testing/tdd-and-coverage",
+    "path": "engineering/testing/tdd-and-coverage/SKILL.md",
+    "domain": "engineering",
+    "category": "engineering",
+    "description": "Test-driven development's red-green-refactor cycle and how to read code coverage as a guide rather than a goal.",
+    "tags": [
+      "tdd",
+      "testing",
+      "refactoring",
+      "coverage",
+      "red-green-refactor"
+    ],
+    "official_sources": [
+      "https://martinfowler.com/bliki/TestDrivenDevelopment.html",
+      "https://martinfowler.com/bliki/TestCoverage.html"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "testing/testing-strategy-pyramid",
+    "path": "engineering/testing/testing-strategy-pyramid/SKILL.md",
+    "domain": "engineering",
+    "category": "engineering",
+    "description": "How to balance a test portfolio across unit, integration, and end-to-end layers using the test pyramid (and the testing-trophy alternative).",
+    "tags": [
+      "testing",
+      "test-pyramid",
+      "strategy",
+      "e2e",
+      "unit-tests",
+      "integration"
+    ],
+    "official_sources": [
+      "https://martinfowler.com/bliki/TestPyramid.html",
+      "https://martinfowler.com/articles/practical-test-pyramid.html"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "testing/unit-integration-e2e",
+    "path": "engineering/testing/unit-integration-e2e/SKILL.md",
+    "domain": "engineering",
+    "category": "engineering",
+    "description": "The three test layers and the tooling that implements them — Vitest for unit/integration and Playwright for end-to-end browser tests.",
+    "tags": [
+      "testing",
+      "vitest",
+      "playwright",
+      "e2e",
+      "integration",
+      "unit-tests"
+    ],
+    "official_sources": [
+      "https://vitest.dev/guide/",
+      "https://playwright.dev/docs/intro"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "cpp",
+    "path": "languages/cpp/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "High-performance, statically typed systems language with zero-overhead abstractions; consult for C++ syntax, RAII, and setup.",
+    "tags": [
+      "cpp",
+      "systems",
+      "performance",
+      "native",
+      "compiled"
+    ],
+    "official_sources": [
+      "https://en.cppreference.com/",
+      "https://github.com/cplusplus/draft"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "csharp",
+    "path": "languages/csharp/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "Modern .NET object-oriented language compiled by Roslyn; consult for OOP, async/await, LINQ, and the dotnet CLI.",
+    "tags": [
+      "csharp",
+      "dotnet",
+      "roslyn",
+      "async",
+      "linq"
+    ],
+    "official_sources": [
+      "https://learn.microsoft.com/en-us/dotnet/csharp/",
+      "https://github.com/dotnet/roslyn",
+      "https://dotnet.microsoft.com/download"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "dart",
+    "path": "languages/dart/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "Client-optimized, strongly typed language for building apps on any platform (powers Flutter); consult for syntax and setup.",
+    "tags": [
+      "dart",
+      "flutter",
+      "client",
+      "cross-platform",
+      "null-safety"
+    ],
+    "official_sources": [
+      "https://dart.dev/guides",
+      "https://github.com/dart-lang/sdk"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "elixir",
+    "path": "languages/elixir/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "Dynamic, functional language on the BEAM (Erlang VM) for scalable, fault-tolerant apps; consult for syntax, OTP, and setup.",
+    "tags": [
+      "elixir",
+      "functional",
+      "beam",
+      "erlang",
+      "concurrency"
+    ],
+    "official_sources": [
+      "https://elixir-lang.org/docs.html",
+      "https://github.com/elixir-lang/elixir"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "go",
+    "path": "languages/go/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "Compiled, concurrent language for simple, reliable network services; consult for goroutines, modules, and tooling.",
+    "tags": [
+      "go",
+      "golang",
+      "concurrency",
+      "goroutines",
+      "modules"
+    ],
+    "official_sources": [
+      "https://go.dev/doc/",
+      "https://github.com/golang/go",
+      "https://go.dev/dl/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "java",
+    "path": "languages/java/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "JVM object-oriented, statically typed language; consult for OOP, the JDK toolchain, and runtime/build basics.",
+    "tags": [
+      "java",
+      "jvm",
+      "openjdk",
+      "oop",
+      "temurin"
+    ],
+    "official_sources": [
+      "https://docs.oracle.com/en/java/",
+      "https://github.com/openjdk/jdk",
+      "https://adoptium.net/installation/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "javascript",
+    "path": "languages/javascript/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "Dynamic, prototype-based language of the web (ECMAScript); consult for core semantics, async, and modern syntax.",
+    "tags": [
+      "javascript",
+      "ecmascript",
+      "web",
+      "async",
+      "es modules"
+    ],
+    "official_sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+      "https://github.com/tc39/ecma262"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "kotlin",
+    "path": "languages/kotlin/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "Concise, modern JVM language fully interoperable with Java; consult for null safety, coroutines, and tooling.",
+    "tags": [
+      "kotlin",
+      "jvm",
+      "null-safety",
+      "coroutines",
+      "multiplatform"
+    ],
+    "official_sources": [
+      "https://kotlinlang.org/docs/home.html",
+      "https://github.com/JetBrains/kotlin",
+      "https://kotlinlang.org/docs/getting-started.html"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "php",
+    "path": "languages/php/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "General-purpose server-side scripting language for the web; consult for PHP syntax, OOP, Composer, and install/setup.",
+    "tags": [
+      "php",
+      "server-side",
+      "web",
+      "scripting",
+      "backend"
+    ],
+    "official_sources": [
+      "https://www.php.net/docs.php",
+      "https://github.com/php/php-src"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "python",
+    "path": "languages/python/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "Batteries-included, general-purpose dynamic language; consult for core syntax, the standard library, and environments.",
+    "tags": [
+      "python",
+      "cpython",
+      "scripting",
+      "stdlib",
+      "venv"
+    ],
+    "official_sources": [
+      "https://docs.python.org/3/",
+      "https://github.com/python/cpython",
+      "https://www.python.org/downloads/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "ruby",
+    "path": "languages/ruby/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "Dynamic, object-oriented language focused on developer happiness; consult for Ruby syntax, idioms, gems, and install/setup.",
+    "tags": [
+      "ruby",
+      "dynamic",
+      "object-oriented",
+      "scripting",
+      "gems"
+    ],
+    "official_sources": [
+      "https://www.ruby-lang.org/en/documentation/",
+      "https://github.com/ruby/ruby"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "rust",
+    "path": "languages/rust/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "Memory-safe systems language with ownership and no GC; consult for ownership/borrowing, Cargo, and error handling.",
+    "tags": [
+      "rust",
+      "systems",
+      "ownership",
+      "borrow-checker",
+      "cargo"
+    ],
+    "official_sources": [
+      "https://doc.rust-lang.org/book/",
+      "https://github.com/rust-lang/rust",
+      "https://www.rust-lang.org/tools/install"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "scala",
+    "path": "languages/scala/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "JVM language blending object-oriented and functional programming with strong static typing; consult for syntax and setup.",
+    "tags": [
+      "scala",
+      "jvm",
+      "functional",
+      "object-oriented",
+      "static-typing"
+    ],
+    "official_sources": [
+      "https://docs.scala-lang.org/",
+      "https://github.com/scala/scala"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "swift",
+    "path": "languages/swift/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "Apple-backed, memory-safe, high-performance language for apps and systems; consult for Swift syntax, concurrency, and setup.",
+    "tags": [
+      "swift",
+      "apple",
+      "memory-safe",
+      "systems",
+      "ios"
+    ],
+    "official_sources": [
+      "https://www.swift.org/documentation/",
+      "https://github.com/swiftlang/swift"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "typescript",
+    "path": "languages/typescript/SKILL.md",
+    "domain": "language",
+    "category": "language",
+    "description": "Typed superset of JavaScript that compiles to plain JS; consult for type system, tsconfig, and compiler usage.",
+    "tags": [
+      "typescript",
+      "javascript",
+      "types",
+      "compiler",
+      "tsc"
+    ],
+    "official_sources": [
+      "https://www.typescriptlang.org/docs/",
+      "https://github.com/microsoft/TypeScript",
+      "https://www.typescriptlang.org/download"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "authoring-agent-skills",
+    "path": "meta/authoring-agent-skills/SKILL.md",
+    "domain": "meta",
+    "category": "meta",
+    "description": "How to author an Agent Skill — a folder + SKILL.md with YAML frontmatter, loaded on demand. Consult when creating or reviewing a skill.",
+    "tags": [
+      "agent-skills",
+      "skill-md",
+      "frontmatter",
+      "claude",
+      "authoring"
+    ],
+    "official_sources": [
+      "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview",
+      "https://github.com/anthropics/skills"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "progressive-disclosure",
+    "path": "meta/progressive-disclosure/SKILL.md",
+    "domain": "meta",
+    "category": "meta",
+    "description": "Keep SKILL.md short and push depth into on-demand reference files so agents load only what each task needs. Consult when a skill grows large.",
+    "tags": [
+      "progressive-disclosure",
+      "agent-skills",
+      "context-window",
+      "reference-files",
+      "token-budget"
+    ],
+    "official_sources": [
+      "https://platform.claude.com/docs/en/agents-and-tools/agent-skills/best-practices",
+      "https://github.com/anthropics/skills"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "skill-frontmatter-spec",
+    "path": "meta/skill-frontmatter-spec/SKILL.md",
+    "domain": "meta",
+    "category": "meta",
+    "description": "SKILL.md YAML frontmatter fields (name, description, license, compatibility, metadata, allowed-tools) and constraints. Consult when writing frontmatter.",
+    "tags": [
+      "frontmatter",
+      "yaml",
+      "agent-skills",
+      "skill-md",
+      "spec"
+    ],
+    "official_sources": [
+      "https://agentskills.io/specification",
+      "https://github.com/agentskills/agentskills"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "adr-technical-decisions",
+    "path": "process/adr-technical-decisions/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces a single immutable ADR file capturing the decision, its context, and its consequences, added to the project's decision log.",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "app-planning",
+    "path": "process/app-planning/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces a planning document that defines what is being built (scope), how it is structured (C4 architecture views), and how it will be delivered (agile backlog",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "architecture-before-code",
+    "path": "process/architecture-before-code/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces a shared, just-enough architecture description (C4-style diagrams + the load-bearing decisions) so engineers agree on boundaries and data flow before c",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "breaking-work-into-sprints",
+    "path": "process/breaking-work-into-sprints/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces a Sprint Backlog (Sprint Goal + selected items + a plan) where every increment is potentially releasable and meets a shared Definition of Done.",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "idea-to-product",
+    "path": "process/idea-to-product/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces a scoped MVP slice with its riskiest assumption, the experiment that tests it, and the success metric — so the team ships the smallest thing that produ",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "mocks-and-screen-flows",
+    "path": "process/mocks-and-screen-flows/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces a wireflow (screen mocks wired by interaction arrows) that maps every screen state and transition for the flow, so engineers build from an unambiguous ",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "prioritization-moscow-rice",
+    "path": "process/prioritization-moscow-rice/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces a prioritized work list: a MoSCoW categorization for release-scoping plus a RICE-scored ranking for the contested items, with the reasoning recorded.",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "problem-framing",
+    "path": "process/problem-framing/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces a reframed, validated problem statement (often with the underlying job-to-be-done) so the team solves the highest-value version of the problem, not the",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "product-discovery",
+    "path": "process/product-discovery/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces an evidence-backed problem statement plus the user-needs and constraints that justify (or kill) the work, so the team commits to building the right thi",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "requirements-to-specs",
+    "path": "process/requirements-to-specs/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces user stories with testable acceptance criteria (the \"Confirmation\" of each story) so every requirement has an unambiguous, verifiable definition of don",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "review-code-perf-security",
+    "path": "process/review-code-perf-security/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces a review that decides whether the change improves overall code health, with findings categorized and each tied to an actionable fix.",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "security-by-design",
+    "path": "process/security-by-design/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces a threat model (answers to the four threat-modeling questions) and a set of proactive controls and least-privilege decisions baked into the design.",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "specs-to-issues",
+    "path": "process/specs-to-issues/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces a set of independent, vertically-sliced issues (each with a clear title, context, acceptance criteria, and metadata) that the team can pick up, build, ",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "testing-before-done",
+    "path": "process/testing-before-done/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces a test plan shaped by the Test Pyramid (the right tests at the right levels) and a definition of done that gates merge on those tests passing.",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "validating-ux-navigation",
+    "path": "process/validating-ux-navigation/SKILL.md",
+    "domain": "process",
+    "category": "process",
+    "description": "Produces a validated IA + navigation design backed by evidence from a structured usability test, with a prioritized list of problems found.",
+    "tags": [],
+    "official_sources": [],
+    "verified": "",
+    "format": "procedure"
+  },
+  {
+    "name": "ai-attachments-ui",
+    "path": "references/ai-attachments-ui/SKILL.md",
+    "domain": "reference",
+    "category": "reference",
+    "description": "Attachment UI patterns for AI chat using AI Elements' Attachments component; consult when showing files/sources in prompts and messages.",
+    "tags": [
+      "ai-elements",
+      "attachments",
+      "file-upload",
+      "ai-ui",
+      "shadcn",
+      "react"
+    ],
+    "official_sources": [
+      "https://elements.ai-sdk.dev/components/attachments",
+      "https://github.com/vercel/ai-elements"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "ai-in-browser-webllm",
+    "path": "references/ai-in-browser-webllm/SKILL.md",
+    "domain": "reference",
+    "category": "reference",
+    "description": "Run LLMs fully in-browser/locally with WebLLM via WebGPU; consult for client-side inference, offline AI, and OpenAI-style chat without a server.",
+    "tags": [
+      "webllm",
+      "llm",
+      "webgpu",
+      "in-browser",
+      "mlc",
+      "local-inference"
+    ],
+    "official_sources": [
+      "https://webllm.mlc.ai/docs/",
+      "https://github.com/mlc-ai/web-llm"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "ai-tool-ui-patterns",
+    "path": "references/ai-tool-ui-patterns/SKILL.md",
+    "domain": "reference",
+    "category": "reference",
+    "description": "UI patterns for AI tool-calls and results — turn tool JSON into typed, validated components; consult when rendering tool outputs in chat.",
+    "tags": [
+      "tool-ui",
+      "ai-ui",
+      "tool-calling",
+      "zod",
+      "shadcn",
+      "assistant-ui"
+    ],
+    "official_sources": [
+      "https://www.tool-ui.com/docs/overview",
+      "https://github.com/assistant-ui/tool-ui"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "component-patterns-gallery",
+    "path": "references/component-patterns-gallery/SKILL.md",
+    "domain": "reference",
+    "category": "reference",
+    "description": "Canonical UI component anatomy, naming, and patterns; consult to name, structure, and document components consistently with real design systems.",
+    "tags": [
+      "components",
+      "design-system",
+      "ui-patterns",
+      "anatomy",
+      "accessibility"
+    ],
+    "official_sources": [
+      "https://component.gallery/",
+      "https://alignui.com/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "gradient-resources",
+    "path": "references/gradient-resources/SKILL.md",
+    "domain": "reference",
+    "category": "reference",
+    "description": "CSS gradient functions plus generators for static and animated/shader gradients; consult when crafting backgrounds, accents, or hero visuals.",
+    "tags": [
+      "gradient",
+      "css",
+      "background",
+      "webgl",
+      "color",
+      "design"
+    ],
+    "official_sources": [
+      "https://developer.mozilla.org/en-US/docs/Web/CSS/gradient",
+      "https://craft-gradients.artcreativecode.com/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "react-component-libraries",
+    "path": "references/react-component-libraries/SKILL.md",
+    "domain": "reference",
+    "category": "reference",
+    "description": "Curated React component sources for modern animated UI; consult to find prebuilt components, blocks, and effects instead of building from scratch.",
+    "tags": [
+      "react",
+      "components",
+      "tailwind",
+      "animation",
+      "framer-motion",
+      "shadcn"
+    ],
+    "official_sources": [
+      "https://magicui.design/",
+      "https://reactbits.dev/",
+      "https://21st.dev/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "saas-landing-patterns",
+    "path": "references/saas-landing-patterns/SKILL.md",
+    "domain": "reference",
+    "category": "reference",
+    "description": "Proven SaaS landing-page structure, sections, copy and conversion patterns; consult when building or critiquing a marketing/landing page.",
+    "tags": [
+      "landing-page",
+      "saas",
+      "conversion",
+      "marketing",
+      "ux"
+    ],
+    "official_sources": [
+      "https://saaslandingpage.com/",
+      "https://saaslandingpage.com/templates/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "shadcn-tailwind-theming",
+    "path": "references/shadcn-tailwind-theming/SKILL.md",
+    "domain": "reference",
+    "category": "reference",
+    "description": "Theme and generate shadcn/ui + Tailwind components via CSS variables and theme editors; consult when styling or scaffolding a shadcn-based UI.",
+    "tags": [
+      "shadcn",
+      "tailwind",
+      "theming",
+      "css-variables",
+      "design-tokens"
+    ],
+    "official_sources": [
+      "https://ui.shadcn.com/",
+      "https://ui.shadcn.com/docs/theming",
+      "https://tweakcn.com/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "vercel-ai-sdk-elements",
+    "path": "references/vercel-ai-sdk-elements/SKILL.md",
+    "domain": "reference",
+    "category": "reference",
+    "description": "AI Elements — composable shadcn/ui components for AI-native apps (chat, reasoning, tools); consult when building AI SDK chat/agent UIs.",
+    "tags": [
+      "ai-sdk",
+      "ai-elements",
+      "vercel",
+      "shadcn",
+      "react",
+      "ai-ui"
+    ],
+    "official_sources": [
+      "https://elements.ai-sdk.dev/",
+      "https://github.com/vercel/ai-elements"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "web-animation-codrops",
+    "path": "references/web-animation-codrops/SKILL.md",
+    "domain": "reference",
+    "category": "reference",
+    "description": "Distilled Codrops web-animation and interaction techniques (paraphrased); consult for motion, scroll, and creative front-end effects.",
+    "tags": [
+      "animation",
+      "interaction",
+      "motion",
+      "gsap",
+      "webgl",
+      "css"
+    ],
+    "official_sources": [
+      "https://tympanus.net/codrops/",
+      "https://tympanus.net/codrops/category/tutorials/"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "auth0",
+    "path": "stacks/auth/auth0/SKILL.md",
+    "domain": "stack",
+    "category": "auth",
+    "description": "Auth0 — hosted identity platform built on OAuth 2.0 and OpenID Connect for adding login, SSO, and M2M auth via Universal Login and SDKs.",
+    "tags": [
+      "auth",
+      "identity",
+      "oauth2",
+      "oidc",
+      "sso",
+      "universal-login",
+      "jwt",
+      "saml"
+    ],
+    "official_sources": [
+      "https://auth0.com/docs",
+      "https://github.com/auth0"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "authjs",
+    "path": "stacks/auth/authjs/SKILL.md",
+    "domain": "stack",
+    "category": "auth",
+    "description": "Framework-agnostic authentication for JS/TS apps (Auth.js, formerly NextAuth.js) — consult when adding OAuth/OIDC, email, or credentials sign-in.",
+    "tags": [
+      "auth",
+      "oauth",
+      "oidc",
+      "nextauth",
+      "nextjs",
+      "sveltekit",
+      "sessions"
+    ],
+    "official_sources": [
+      "https://authjs.dev/",
+      "https://github.com/nextauthjs/next-auth"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "clerk",
+    "path": "stacks/auth/clerk/SKILL.md",
+    "domain": "stack",
+    "category": "auth",
+    "description": "Hosted authentication and user management with prebuilt React/JS UI components — consult when adding sign-up, sign-in, and profile flows fast.",
+    "tags": [
+      "auth",
+      "user-management",
+      "react",
+      "nextjs",
+      "components",
+      "sessions",
+      "mfa"
+    ],
+    "official_sources": [
+      "https://clerk.com/docs",
+      "https://github.com/clerk/javascript"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "keycloak",
+    "path": "stacks/auth/keycloak/SKILL.md",
+    "domain": "stack",
+    "category": "auth",
+    "description": "Keycloak — open-source identity and access management server (OIDC, OAuth 2.0, SAML) for adding SSO, federation, and user management to apps.",
+    "tags": [
+      "auth",
+      "iam",
+      "sso",
+      "oidc",
+      "oauth2",
+      "saml",
+      "self-hosted",
+      "identity-provider"
+    ],
+    "official_sources": [
+      "https://www.keycloak.org/documentation",
+      "https://github.com/keycloak/keycloak"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "lucia",
+    "path": "stacks/auth/lucia/SKILL.md",
+    "domain": "stack",
+    "category": "auth",
+    "description": "Lucia is now a learning resource for implementing auth from scratch in JS/TS, NOT a maintained library — consult to learn session-based auth patterns.",
+    "tags": [
+      "auth",
+      "sessions",
+      "learning-resource",
+      "typescript",
+      "deprecated-library",
+      "from-scratch"
+    ],
+    "official_sources": [
+      "https://lucia-auth.com/",
+      "https://github.com/lucia-auth/lucia"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "passport",
+    "path": "stacks/auth/passport/SKILL.md",
+    "domain": "stack",
+    "category": "auth",
+    "description": "Passport — Express-compatible authentication middleware for Node.js using pluggable strategies; consult when adding login to an Express/Node app.",
+    "tags": [
+      "auth",
+      "nodejs",
+      "express",
+      "middleware",
+      "strategies",
+      "sessions",
+      "oauth"
+    ],
+    "official_sources": [
+      "https://www.passportjs.org/docs/",
+      "https://github.com/jaredhanson/passport"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "supabase-auth",
+    "path": "stacks/auth/supabase-auth/SKILL.md",
+    "domain": "stack",
+    "category": "auth",
+    "description": "Supabase Auth — managed user authentication (password, magic link, OTP, social, SSO) that integrates with Postgres Row Level Security.",
+    "tags": [
+      "auth",
+      "supabase",
+      "postgres",
+      "rls",
+      "oauth",
+      "jwt",
+      "sso",
+      "magic-link"
+    ],
+    "official_sources": [
+      "https://supabase.com/docs/guides/auth",
+      "https://github.com/supabase/auth"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "actix",
+    "path": "stacks/backend/actix/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Powerful, fast Rust web framework (actix-web) on Tokio with HTTP/1 and HTTP/2, routing, and middleware; consult when building Rust HTTP services.",
+    "tags": [
+      "rust",
+      "actix-web",
+      "tokio",
+      "http",
+      "web-framework"
+    ],
+    "official_sources": [
+      "https://actix.rs/docs/",
+      "https://github.com/actix/actix-web"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "adonisjs",
+    "path": "stacks/backend/adonisjs/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "TypeScript-first full-stack Node MVC framework with testing, ORM, and official packages; consult when building AdonisJS web apps or API servers.",
+    "tags": [
+      "nodejs",
+      "typescript",
+      "adonisjs",
+      "mvc",
+      "web-framework"
+    ],
+    "official_sources": [
+      "https://docs.adonisjs.com/",
+      "https://github.com/adonisjs/core"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "aspnet-core",
+    "path": "stacks/backend/aspnet-core/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Cross-platform, open-source .NET web framework for cloud apps, web APIs, and Blazor; consult when building or maintaining ASP.NET Core backends.",
+    "tags": [
+      "dotnet",
+      "csharp",
+      "aspnet-core",
+      "web-api",
+      "web-framework"
+    ],
+    "official_sources": [
+      "https://learn.microsoft.com/aspnet/core/",
+      "https://github.com/dotnet/aspnetcore"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "django",
+    "path": "stacks/backend/django/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Full-featured, batteries-included Python web framework with ORM, admin, and auth; consult for rapid, secure server-rendered apps and APIs.",
+    "tags": [
+      "django",
+      "python",
+      "orm",
+      "mvc",
+      "web-framework",
+      "backend"
+    ],
+    "official_sources": [
+      "https://docs.djangoproject.com/en/stable/",
+      "https://github.com/django/django"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "express",
+    "path": "stacks/backend/express/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Minimal, unopinionated, ubiquitous Node.js web framework with middleware and routing; consult for lightweight HTTP servers and APIs.",
+    "tags": [
+      "express",
+      "nodejs",
+      "http",
+      "middleware",
+      "routing",
+      "backend"
+    ],
+    "official_sources": [
+      "https://expressjs.com/",
+      "https://github.com/expressjs/express"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "fastapi",
+    "path": "stacks/backend/fastapi/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Modern async, type-hint-driven Python API framework with automatic validation and OpenAPI docs; consult for high-performance typed APIs.",
+    "tags": [
+      "fastapi",
+      "python",
+      "async",
+      "pydantic",
+      "openapi",
+      "backend"
+    ],
+    "official_sources": [
+      "https://fastapi.tiangolo.com/",
+      "https://github.com/fastapi/fastapi"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "fastify",
+    "path": "stacks/backend/fastify/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Fast, low-overhead Node.js HTTP framework with schema validation and a plugin/encapsulation model; consult for performant APIs.",
+    "tags": [
+      "fastify",
+      "nodejs",
+      "http",
+      "plugins",
+      "json-schema",
+      "backend"
+    ],
+    "official_sources": [
+      "https://fastify.dev/docs/latest/",
+      "https://github.com/fastify/fastify"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "fiber",
+    "path": "stacks/backend/fiber/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Express-inspired Go web framework built on Fasthttp for fast, low-allocation HTTP services; consult when building Go APIs with an Express-like API.",
+    "tags": [
+      "go",
+      "fiber",
+      "fasthttp",
+      "express",
+      "web-framework"
+    ],
+    "official_sources": [
+      "https://docs.gofiber.io/",
+      "https://github.com/gofiber/fiber"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "flask",
+    "path": "stacks/backend/flask/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Minimal Python WSGI microframework built on Werkzeug and Jinja; consult for small services, APIs, or when you want to assemble your own stack.",
+    "tags": [
+      "flask",
+      "python",
+      "wsgi",
+      "microframework",
+      "jinja",
+      "backend"
+    ],
+    "official_sources": [
+      "https://flask.palletsprojects.com/",
+      "https://github.com/pallets/flask"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "gin",
+    "path": "stacks/backend/gin/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Fast Go HTTP web framework with httprouter-based routing, middleware, and JSON binding; consult when building Go REST APIs or microservices.",
+    "tags": [
+      "go",
+      "gin",
+      "http",
+      "rest-api",
+      "web-framework"
+    ],
+    "official_sources": [
+      "https://gin-gonic.com/en/docs/",
+      "https://github.com/gin-gonic/gin"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "hono",
+    "path": "stacks/backend/hono/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Tiny, ultrafast Web-Standards web framework that runs on Cloudflare Workers, Deno, Bun, Node.js and edge; consult for edge/multi-runtime APIs.",
+    "tags": [
+      "hono",
+      "edge",
+      "web-standards",
+      "cloudflare-workers",
+      "bun",
+      "deno",
+      "backend"
+    ],
+    "official_sources": [
+      "https://hono.dev/docs/",
+      "https://github.com/honojs/hono"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "koa",
+    "path": "stacks/backend/koa/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Expressive, minimal middleware framework for Node.js from the Express team, built on async/await; consult for lean, composable HTTP servers.",
+    "tags": [
+      "koa",
+      "nodejs",
+      "middleware",
+      "async-await",
+      "http",
+      "backend"
+    ],
+    "official_sources": [
+      "https://koajs.com/",
+      "https://github.com/koajs/koa"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "laravel",
+    "path": "stacks/backend/laravel/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Full-featured PHP web framework with Eloquent ORM, Blade, queues, and Artisan; consult when building or maintaining a Laravel backend.",
+    "tags": [
+      "php",
+      "laravel",
+      "mvc",
+      "eloquent",
+      "web-framework"
+    ],
+    "official_sources": [
+      "https://laravel.com/docs",
+      "https://github.com/laravel/laravel"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "nestjs",
+    "path": "stacks/backend/nestjs/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Opinionated TypeScript backend framework with DI, modules, and decorators; consult when building structured Node server-side apps.",
+    "tags": [
+      "nestjs",
+      "nodejs",
+      "typescript",
+      "dependency-injection",
+      "backend"
+    ],
+    "official_sources": [
+      "https://docs.nestjs.com/",
+      "https://github.com/nestjs/nest"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "phoenix",
+    "path": "stacks/backend/phoenix/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Elixir web framework with realtime channels, LiveView, and an MVC structure on the BEAM; consult when building Phoenix apps or realtime features.",
+    "tags": [
+      "elixir",
+      "phoenix",
+      "liveview",
+      "realtime",
+      "web-framework"
+    ],
+    "official_sources": [
+      "https://hexdocs.pm/phoenix/",
+      "https://github.com/phoenixframework/phoenix"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "rails",
+    "path": "stacks/backend/rails/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Convention-driven full-stack Ruby MVC framework with Active Record; consult when building or maintaining a Ruby on Rails backend.",
+    "tags": [
+      "ruby",
+      "rails",
+      "mvc",
+      "active-record",
+      "web-framework"
+    ],
+    "official_sources": [
+      "https://guides.rubyonrails.org/",
+      "https://github.com/rails/rails"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "spring-boot",
+    "path": "stacks/backend/spring-boot/SKILL.md",
+    "domain": "stack",
+    "category": "backend",
+    "description": "Convention-over-configuration JVM framework for production-grade Spring apps with auto-configuration and embedded servers; consult for Java/Kotlin backends.",
+    "tags": [
+      "spring-boot",
+      "java",
+      "kotlin",
+      "jvm",
+      "dependency-injection",
+      "backend"
+    ],
+    "official_sources": [
+      "https://docs.spring.io/spring-boot/",
+      "https://github.com/spring-projects/spring-boot"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "containerd",
+    "path": "stacks/container/containerd/SKILL.md",
+    "domain": "stack",
+    "category": "container",
+    "description": "Industry-standard, CNCF-graduated container runtime that manages the full container lifecycle — consult for low-level runtime and Kubernetes CRI work.",
+    "tags": [
+      "containerd",
+      "container-runtime",
+      "oci",
+      "cri",
+      "kubernetes",
+      "cncf"
+    ],
+    "official_sources": [
+      "https://containerd.io/docs/",
+      "https://github.com/containerd/containerd"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "docker",
+    "path": "stacks/container/docker/SKILL.md",
+    "domain": "stack",
+    "category": "container",
+    "description": "Build, ship, and run applications in containers with Docker Engine — consult for Dockerfiles, images, and container runtime workflows.",
+    "tags": [
+      "docker",
+      "containers",
+      "dockerfile",
+      "oci",
+      "image",
+      "container-runtime"
+    ],
+    "official_sources": [
+      "https://docs.docker.com/",
+      "https://github.com/moby/moby"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "podman",
+    "path": "stacks/container/podman/SKILL.md",
+    "domain": "stack",
+    "category": "container",
+    "description": "Daemonless, rootless OCI container and pod engine with a Docker-compatible CLI — consult for running containers without a root daemon.",
+    "tags": [
+      "podman",
+      "containers",
+      "rootless",
+      "daemonless",
+      "oci",
+      "pods"
+    ],
+    "official_sources": [
+      "https://docs.podman.io/",
+      "https://github.com/containers/podman"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "cassandra",
+    "path": "stacks/database/cassandra/SKILL.md",
+    "domain": "stack",
+    "category": "database",
+    "description": "Distributed wide-column NoSQL database for high write throughput and linear scalability; consult for partition-key data modeling with CQL.",
+    "tags": [
+      "cassandra",
+      "nosql",
+      "wide-column",
+      "distributed",
+      "cql"
+    ],
+    "official_sources": [
+      "https://cassandra.apache.org/doc/latest/",
+      "https://github.com/apache/cassandra"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "cockroachdb",
+    "path": "stacks/database/cockroachdb/SKILL.md",
+    "domain": "stack",
+    "category": "database",
+    "description": "Distributed, strongly-consistent SQL database with Postgres wire compatibility; consult for horizontally scalable, survivable SQL backends.",
+    "tags": [
+      "cockroachdb",
+      "distributed-sql",
+      "postgres-compatible",
+      "newsql",
+      "acid"
+    ],
+    "official_sources": [
+      "https://www.cockroachlabs.com/docs/",
+      "https://github.com/cockroachdb/cockroach"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "dynamodb",
+    "path": "stacks/database/dynamodb/SKILL.md",
+    "domain": "stack",
+    "category": "database",
+    "description": "AWS fully managed serverless key-value and document NoSQL database; consult for single-digit-ms scale, key design, and access-pattern modeling.",
+    "tags": [
+      "dynamodb",
+      "aws",
+      "nosql",
+      "key-value",
+      "serverless"
+    ],
+    "official_sources": [
+      "https://docs.aws.amazon.com/dynamodb/",
+      "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "mariadb",
+    "path": "stacks/database/mariadb/SKILL.md",
+    "domain": "stack",
+    "category": "database",
+    "description": "Community-developed open-source fork of MySQL with extra storage engines and features; consult for MySQL-compatible relational backends.",
+    "tags": [
+      "mariadb",
+      "sql",
+      "rdbms",
+      "relational",
+      "mysql-fork"
+    ],
+    "official_sources": [
+      "https://mariadb.com/docs/",
+      "https://github.com/MariaDB/server"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "mongodb",
+    "path": "stacks/database/mongodb/SKILL.md",
+    "domain": "stack",
+    "category": "database",
+    "description": "Document database storing flexible JSON-like (BSON) documents; consult for schema design, indexing, aggregation, and NoSQL data modeling.",
+    "tags": [
+      "mongodb",
+      "nosql",
+      "document",
+      "bson",
+      "database"
+    ],
+    "official_sources": [
+      "https://www.mongodb.com/docs/",
+      "https://github.com/mongodb/mongo"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "mysql",
+    "path": "stacks/database/mysql/SKILL.md",
+    "domain": "stack",
+    "category": "database",
+    "description": "Popular open-source relational database from Oracle; consult for schema design, SQL, storage engines (InnoDB), and replication.",
+    "tags": [
+      "mysql",
+      "sql",
+      "rdbms",
+      "relational",
+      "innodb"
+    ],
+    "official_sources": [
+      "https://dev.mysql.com/doc/",
+      "https://github.com/mysql/mysql-server"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "neon",
+    "path": "stacks/database/neon/SKILL.md",
+    "domain": "stack",
+    "category": "database",
+    "description": "Open-source serverless Postgres that separates storage and compute with autoscaling, scale-to-zero, and database branching; consult for serverless Postgres.",
+    "tags": [
+      "neon",
+      "postgres",
+      "serverless",
+      "branching",
+      "autoscaling"
+    ],
+    "official_sources": [
+      "https://neon.com/docs",
+      "https://github.com/neondatabase/neon"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "planetscale",
+    "path": "stacks/database/planetscale/SKILL.md",
+    "domain": "stack",
+    "category": "database",
+    "description": "Managed database platform offering Vitess (MySQL-compatible) and Postgres clusters with branching and non-blocking schema changes; consult for scalable managed SQL.",
+    "tags": [
+      "planetscale",
+      "vitess",
+      "mysql",
+      "postgres",
+      "managed"
+    ],
+    "official_sources": [
+      "https://planetscale.com/docs",
+      "https://github.com/planetscale/cli"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "postgresql",
+    "path": "stacks/database/postgresql/SKILL.md",
+    "domain": "stack",
+    "category": "database",
+    "description": "Robust open-source relational database with strong SQL, ACID, and extensibility; consult for schema design, transactions, and indexing.",
+    "tags": [
+      "postgresql",
+      "sql",
+      "rdbms",
+      "relational",
+      "acid"
+    ],
+    "official_sources": [
+      "https://www.postgresql.org/docs/",
+      "https://github.com/postgres/postgres"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "redis",
+    "path": "stacks/database/redis/SKILL.md",
+    "domain": "stack",
+    "category": "database",
+    "description": "In-memory data structure store for caching, queues, sessions, and pub/sub; canonical entry for using Redis as cache or fast key-value store.",
+    "tags": [
+      "redis",
+      "cache",
+      "in-memory",
+      "key-value",
+      "pubsub"
+    ],
+    "official_sources": [
+      "https://redis.io/docs/latest/",
+      "https://github.com/redis/redis"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "sqlite",
+    "path": "stacks/database/sqlite/SKILL.md",
+    "domain": "stack",
+    "category": "database",
+    "description": "Embedded, serverless, file-based SQL database; consult for local/app storage, on-device data, tests, and zero-config single-file databases.",
+    "tags": [
+      "sqlite",
+      "sql",
+      "embedded",
+      "serverless",
+      "file-based"
+    ],
+    "official_sources": [
+      "https://sqlite.org/docs.html",
+      "https://github.com/sqlite/sqlite"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "supabase",
+    "path": "stacks/database/supabase/SKILL.md",
+    "domain": "stack",
+    "category": "database",
+    "description": "Open-source Firebase alternative built on Postgres with auth, storage, realtime, and edge functions; consult for full-stack Postgres backends.",
+    "tags": [
+      "supabase",
+      "postgres",
+      "baas",
+      "auth",
+      "realtime"
+    ],
+    "official_sources": [
+      "https://supabase.com/docs",
+      "https://github.com/supabase/supabase"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "alpine",
+    "path": "stacks/frontend/alpine/SKILL.md",
+    "domain": "stack",
+    "category": "frontend",
+    "description": "Lightweight framework for composing JavaScript behavior directly in markup via x- attributes; consult for sprinkles of interactivity.",
+    "tags": [
+      "alpinejs",
+      "declarative",
+      "markup",
+      "lightweight",
+      "reactivity"
+    ],
+    "official_sources": [
+      "https://alpinejs.dev/start-here",
+      "https://github.com/alpinejs/alpine"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "angular",
+    "path": "stacks/frontend/angular/SKILL.md",
+    "domain": "stack",
+    "category": "frontend",
+    "description": "Full-featured TypeScript frontend platform with CLI, DI, and reactive primitives; consult for components, signals, and Angular CLI apps.",
+    "tags": [
+      "angular",
+      "typescript",
+      "cli",
+      "signals",
+      "dependency-injection",
+      "spa"
+    ],
+    "official_sources": [
+      "https://angular.dev/",
+      "https://github.com/angular/angular"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "htmx",
+    "path": "stacks/frontend/htmx/SKILL.md",
+    "domain": "stack",
+    "category": "frontend",
+    "description": "HTML-over-the-wire hypermedia library that adds AJAX, SSE, and swaps via attributes; consult for server-rendered interactivity without SPA JS.",
+    "tags": [
+      "htmx",
+      "hypermedia",
+      "ajax",
+      "html-over-the-wire",
+      "server-rendered"
+    ],
+    "official_sources": [
+      "https://htmx.org/docs/",
+      "https://github.com/bigskysoftware/htmx"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "lit",
+    "path": "stacks/frontend/lit/SKILL.md",
+    "domain": "stack",
+    "category": "frontend",
+    "description": "Lightweight base library for building fast, standards-based Web Components; consult for LitElement, reactive properties, and html templates.",
+    "tags": [
+      "lit",
+      "web-components",
+      "custom-elements",
+      "shadow-dom",
+      "templates"
+    ],
+    "official_sources": [
+      "https://lit.dev/docs/",
+      "https://github.com/lit/lit"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "preact",
+    "path": "stacks/frontend/preact/SKILL.md",
+    "domain": "stack",
+    "category": "frontend",
+    "description": "Tiny (~4kB) React-compatible UI library with the same modern API; consult for lightweight apps and React-to-Preact aliasing.",
+    "tags": [
+      "preact",
+      "react-alternative",
+      "virtual-dom",
+      "hooks",
+      "lightweight",
+      "ui"
+    ],
+    "official_sources": [
+      "https://preactjs.com/guide/v10/getting-started/",
+      "https://github.com/preactjs/preact"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "qwik",
+    "path": "stacks/frontend/qwik/SKILL.md",
+    "domain": "stack",
+    "category": "frontend",
+    "description": "Resumable web framework with instant loading and O(1) hydration via lazy execution; consult for Qwik components and SSR resumability.",
+    "tags": [
+      "qwik",
+      "resumability",
+      "hydration",
+      "ssr",
+      "lazy-loading",
+      "ui"
+    ],
+    "official_sources": [
+      "https://qwik.dev/docs/",
+      "https://github.com/QwikDev/qwik"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "react",
+    "path": "stacks/frontend/react/SKILL.md",
+    "domain": "stack",
+    "category": "frontend",
+    "description": "Component-based JavaScript library for building web and native UIs; consult for components, hooks, state, and rendering model.",
+    "tags": [
+      "react",
+      "components",
+      "hooks",
+      "jsx",
+      "ui",
+      "spa"
+    ],
+    "official_sources": [
+      "https://react.dev/",
+      "https://github.com/facebook/react"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "solidjs",
+    "path": "stacks/frontend/solidjs/SKILL.md",
+    "domain": "stack",
+    "category": "frontend",
+    "description": "Fine-grained reactive UI library with JSX and no virtual DOM; consult for signals, derived state, and Solid/SolidStart apps.",
+    "tags": [
+      "solidjs",
+      "signals",
+      "reactivity",
+      "jsx",
+      "ui"
+    ],
+    "official_sources": [
+      "https://docs.solidjs.com/",
+      "https://github.com/solidjs/solid"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "svelte",
+    "path": "stacks/frontend/svelte/SKILL.md",
+    "domain": "stack",
+    "category": "frontend",
+    "description": "Compiler-first UI framework that converts components to efficient JS with no runtime virtual DOM; consult for Svelte/SvelteKit apps.",
+    "tags": [
+      "svelte",
+      "sveltekit",
+      "compiler",
+      "reactivity",
+      "ui"
+    ],
+    "official_sources": [
+      "https://svelte.dev/docs",
+      "https://github.com/sveltejs/svelte"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "vue",
+    "path": "stacks/frontend/vue/SKILL.md",
+    "domain": "stack",
+    "category": "frontend",
+    "description": "Progressive, incrementally adoptable JavaScript framework for building web UIs; consult for SFCs, reactivity, and composition API.",
+    "tags": [
+      "vue",
+      "reactivity",
+      "sfc",
+      "composition-api",
+      "ui",
+      "spa"
+    ],
+    "official_sources": [
+      "https://vuejs.org/guide/",
+      "https://github.com/vuejs/core"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "aws",
+    "path": "stacks/infra/aws/SKILL.md",
+    "domain": "stack",
+    "category": "infra",
+    "description": "Amazon Web Services cloud platform and AWS CLI; consult for compute, storage, networking, IAM, and scripting AWS resources.",
+    "tags": [
+      "cloud",
+      "aws",
+      "iam",
+      "ec2",
+      "s3",
+      "cli"
+    ],
+    "official_sources": [
+      "https://docs.aws.amazon.com/",
+      "https://github.com/aws/aws-cli"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "cloudflare",
+    "path": "stacks/infra/cloudflare/SKILL.md",
+    "domain": "stack",
+    "category": "infra",
+    "description": "Cloudflare CDN, DNS, WAF, Workers edge compute, and Tunnels; consult for edge delivery, DNS, and exposing private origins securely.",
+    "tags": [
+      "cdn",
+      "dns",
+      "edge",
+      "tunnel",
+      "workers",
+      "waf"
+    ],
+    "official_sources": [
+      "https://developers.cloudflare.com/",
+      "https://github.com/cloudflare/cloudflared"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "fly-io",
+    "path": "stacks/infra/fly-io/SKILL.md",
+    "domain": "stack",
+    "category": "infra",
+    "description": "Run full-stack apps and databases on a global edge using flyctl and Fly Machines; consult for deploys, regions, and scaling.",
+    "tags": [
+      "hosting",
+      "edge",
+      "containers",
+      "deploy",
+      "flyctl",
+      "global"
+    ],
+    "official_sources": [
+      "https://fly.io/docs/",
+      "https://github.com/superfly/flyctl"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "gcp",
+    "path": "stacks/infra/gcp/SKILL.md",
+    "domain": "stack",
+    "category": "infra",
+    "description": "Google Cloud Platform and the gcloud CLI; consult for compute, storage, networking, IAM, and scripting GCP resources.",
+    "tags": [
+      "cloud",
+      "gcp",
+      "gcloud",
+      "iam",
+      "compute",
+      "cli"
+    ],
+    "official_sources": [
+      "https://cloud.google.com/docs",
+      "https://cloud.google.com/sdk/docs/install"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "kubernetes",
+    "path": "stacks/infra/kubernetes/SKILL.md",
+    "domain": "stack",
+    "category": "infra",
+    "description": "Container orchestration for deploying, scaling, and managing containerized apps; consult for Pods, Deployments, Services, and kubectl.",
+    "tags": [
+      "kubernetes",
+      "k8s",
+      "containers",
+      "orchestration",
+      "kubectl",
+      "cncf"
+    ],
+    "official_sources": [
+      "https://kubernetes.io/docs/",
+      "https://github.com/kubernetes/kubernetes"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "netlify",
+    "path": "stacks/infra/netlify/SKILL.md",
+    "domain": "stack",
+    "category": "infra",
+    "description": "Managed hosting for web apps with Git deploys, functions, and edge; consult for deploys, redirects, env vars, and the Netlify CLI.",
+    "tags": [
+      "hosting",
+      "serverless",
+      "frontend",
+      "deploy",
+      "cli",
+      "jamstack"
+    ],
+    "official_sources": [
+      "https://docs.netlify.com/",
+      "https://github.com/netlify/cli"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "railway",
+    "path": "stacks/infra/railway/SKILL.md",
+    "domain": "stack",
+    "category": "infra",
+    "description": "Deploy apps, databases, and services with Git-driven builds; consult for services, variables, environments, and the Railway CLI.",
+    "tags": [
+      "hosting",
+      "paas",
+      "deploy",
+      "database",
+      "cli"
+    ],
+    "official_sources": [
+      "https://docs.railway.com/",
+      "https://github.com/railwayapp/cli"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "tailscale",
+    "path": "stacks/infra/tailscale/SKILL.md",
+    "domain": "stack",
+    "category": "infra",
+    "description": "Zero-config WireGuard mesh VPN; consult for private networking, ACLs, subnet routing, and secure device-to-device connectivity.",
+    "tags": [
+      "vpn",
+      "wireguard",
+      "networking",
+      "mesh",
+      "zero-trust"
+    ],
+    "official_sources": [
+      "https://tailscale.com/kb/",
+      "https://github.com/tailscale/tailscale"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "vercel",
+    "path": "stacks/infra/vercel/SKILL.md",
+    "domain": "stack",
+    "category": "infra",
+    "description": "Managed hosting optimized for frontends and serverless functions; consult for deploys, preview URLs, env vars, and the Vercel CLI.",
+    "tags": [
+      "hosting",
+      "serverless",
+      "frontend",
+      "deploy",
+      "cli"
+    ],
+    "official_sources": [
+      "https://vercel.com/docs",
+      "https://github.com/vercel/vercel"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "astro",
+    "path": "stacks/meta/astro/SKILL.md",
+    "domain": "stack",
+    "category": "meta",
+    "description": "Content-focused web framework with an islands architecture — ships zero JS by default, supports React/Vue/Svelte; consult for content sites and blogs.",
+    "tags": [
+      "islands",
+      "content",
+      "ssg",
+      "ssr",
+      "ui-agnostic"
+    ],
+    "official_sources": [
+      "https://docs.astro.build/",
+      "https://github.com/withastro/astro"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "gatsby",
+    "path": "stacks/meta/gatsby/SKILL.md",
+    "domain": "stack",
+    "category": "meta",
+    "description": "React-based static-site framework with a GraphQL data layer and plugin ecosystem; consult when building or maintaining a Gatsby site.",
+    "tags": [
+      "react",
+      "ssg",
+      "graphql",
+      "plugins",
+      "static-site"
+    ],
+    "official_sources": [
+      "https://www.gatsbyjs.com/docs/",
+      "https://github.com/gatsbyjs/gatsby"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "nextjs",
+    "path": "stacks/meta/nextjs/SKILL.md",
+    "domain": "stack",
+    "category": "meta",
+    "description": "React meta-framework for full-stack apps — file-system routing, Server Components, SSR/SSG/ISR; consult when building or debugging a Next.js app.",
+    "tags": [
+      "react",
+      "ssr",
+      "rsc",
+      "app-router",
+      "vercel"
+    ],
+    "official_sources": [
+      "https://nextjs.org/docs",
+      "https://github.com/vercel/next.js"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "nuxt",
+    "path": "stacks/meta/nuxt/SKILL.md",
+    "domain": "stack",
+    "category": "meta",
+    "description": "Vue meta-framework for full-stack apps — SSR, file-based routing, auto-imports, modules; consult when building or debugging a Nuxt app.",
+    "tags": [
+      "vue",
+      "ssr",
+      "file-routing",
+      "full-stack",
+      "nitro"
+    ],
+    "official_sources": [
+      "https://nuxt.com/docs",
+      "https://github.com/nuxt/nuxt"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "remix",
+    "path": "stacks/meta/remix/SKILL.md",
+    "domain": "stack",
+    "category": "meta",
+    "description": "React meta-framework built on web fundamentals (nested routes, loaders/actions); note v2's successor is React Router v7. Consult for Remix apps.",
+    "tags": [
+      "react",
+      "ssr",
+      "web-standards",
+      "loaders",
+      "react-router"
+    ],
+    "official_sources": [
+      "https://remix.run/docs",
+      "https://github.com/remix-run/remix"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "sveltekit",
+    "path": "stacks/meta/sveltekit/SKILL.md",
+    "domain": "stack",
+    "category": "meta",
+    "description": "Svelte meta-framework — file routing, SSR/SSG/SPA, load functions, form actions, deploy adapters; consult when building or debugging a SvelteKit app.",
+    "tags": [
+      "svelte",
+      "ssr",
+      "file-routing",
+      "adapters",
+      "vite"
+    ],
+    "official_sources": [
+      "https://svelte.dev/docs/kit",
+      "https://github.com/sveltejs/kit"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "vite",
+    "path": "stacks/meta/vite/SKILL.md",
+    "domain": "stack",
+    "category": "meta",
+    "description": "Fast frontend build tool and dev server — native-ESM dev with instant HMR, optimized production builds; consult when scaffolding or configuring SPAs.",
+    "tags": [
+      "build-tool",
+      "dev-server",
+      "esm",
+      "hmr",
+      "bundler"
+    ],
+    "official_sources": [
+      "https://vite.dev/guide/",
+      "https://github.com/vitejs/vite"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "diesel",
+    "path": "stacks/orm/diesel/SKILL.md",
+    "domain": "stack",
+    "category": "orm",
+    "description": "Safe, extensible compile-time-checked ORM and query builder for Rust; consult for type-safe SQL against PostgreSQL, MySQL, or SQLite in Rust.",
+    "tags": [
+      "orm",
+      "rust",
+      "query-builder",
+      "postgresql",
+      "sqlite",
+      "mysql"
+    ],
+    "official_sources": [
+      "https://diesel.rs/guides/",
+      "https://github.com/diesel-rs/diesel"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "django-orm",
+    "path": "stacks/orm/django-orm/SKILL.md",
+    "domain": "stack",
+    "category": "orm",
+    "description": "Django's built-in ORM — models, QuerySets, migrations, and the admin; consult for relational data access inside a Django project.",
+    "tags": [
+      "orm",
+      "python",
+      "django",
+      "models",
+      "queryset",
+      "migrations"
+    ],
+    "official_sources": [
+      "https://docs.djangoproject.com/en/stable/topics/db/",
+      "https://github.com/django/django"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "drizzle",
+    "path": "stacks/orm/drizzle/SKILL.md",
+    "domain": "stack",
+    "category": "orm",
+    "description": "Lightweight, headless TypeScript-first SQL ORM with zero dependencies and SQL-like queries; consult for type-safe SQL in Node/edge runtimes.",
+    "tags": [
+      "orm",
+      "typescript",
+      "nodejs",
+      "sql",
+      "serverless",
+      "postgresql"
+    ],
+    "official_sources": [
+      "https://orm.drizzle.team/docs/overview",
+      "https://github.com/drizzle-team/drizzle-orm"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "gorm",
+    "path": "stacks/orm/gorm/SKILL.md",
+    "domain": "stack",
+    "category": "orm",
+    "description": "The fantastic, developer-friendly ORM for Go with associations, hooks, transactions, and auto-migration; consult for relational data access in Go.",
+    "tags": [
+      "orm",
+      "go",
+      "golang",
+      "database",
+      "migrations",
+      "associations"
+    ],
+    "official_sources": [
+      "https://gorm.io/docs/",
+      "https://github.com/go-gorm/gorm"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "knex",
+    "path": "stacks/orm/knex/SKILL.md",
+    "domain": "stack",
+    "category": "orm",
+    "description": "Flexible multi-dialect SQL query builder for Node.js with transactions, pooling, and migrations; consult when you want SQL control without a full ORM.",
+    "tags": [
+      "query-builder",
+      "nodejs",
+      "sql",
+      "migrations",
+      "transactions",
+      "postgresql"
+    ],
+    "official_sources": [
+      "https://knexjs.org/",
+      "https://github.com/knex/knex"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "mongoose",
+    "path": "stacks/orm/mongoose/SKILL.md",
+    "domain": "stack",
+    "category": "orm",
+    "description": "MongoDB object modeling (ODM) for Node.js with schemas, validation, and middleware; consult for structured MongoDB access in JS/TS.",
+    "tags": [
+      "odm",
+      "mongodb",
+      "nodejs",
+      "javascript",
+      "typescript",
+      "schema"
+    ],
+    "official_sources": [
+      "https://mongoosejs.com/docs/",
+      "https://github.com/Automattic/mongoose"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "prisma",
+    "path": "stacks/orm/prisma/SKILL.md",
+    "domain": "stack",
+    "category": "orm",
+    "description": "Type-safe TS/JS ORM with a declarative schema DSL, auto-generated client, and migrations; consult when modeling data in Node.js.",
+    "tags": [
+      "orm",
+      "typescript",
+      "nodejs",
+      "database",
+      "migrations",
+      "postgresql"
+    ],
+    "official_sources": [
+      "https://www.prisma.io/docs",
+      "https://github.com/prisma/prisma"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "sequelize",
+    "path": "stacks/orm/sequelize/SKILL.md",
+    "domain": "stack",
+    "category": "orm",
+    "description": "Mature promise-based JS/TS ORM for SQL databases with models, associations, and transactions; consult for established Node.js relational data access.",
+    "tags": [
+      "orm",
+      "nodejs",
+      "javascript",
+      "typescript",
+      "sql",
+      "transactions"
+    ],
+    "official_sources": [
+      "https://sequelize.org/docs/v6/",
+      "https://github.com/sequelize/sequelize"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "sqlalchemy",
+    "path": "stacks/orm/sqlalchemy/SKILL.md",
+    "domain": "stack",
+    "category": "orm",
+    "description": "The de-facto Python SQL toolkit and ORM with Core expression language and full ORM layer; consult for relational data access in Python.",
+    "tags": [
+      "orm",
+      "python",
+      "sql",
+      "database",
+      "core",
+      "session"
+    ],
+    "official_sources": [
+      "https://docs.sqlalchemy.org/",
+      "https://github.com/sqlalchemy/sqlalchemy"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "typeorm",
+    "path": "stacks/orm/typeorm/SKILL.md",
+    "domain": "stack",
+    "category": "orm",
+    "description": "Decorator-based TS/JS ORM supporting Active Record and Data Mapper patterns across many databases; consult for entity-driven Node.js data access.",
+    "tags": [
+      "orm",
+      "typescript",
+      "nodejs",
+      "decorators",
+      "database",
+      "migrations"
+    ],
+    "official_sources": [
+      "https://typeorm.io/",
+      "https://github.com/typeorm/typeorm"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "bullmq",
+    "path": "stacks/queue/bullmq/SKILL.md",
+    "domain": "stack",
+    "category": "queue",
+    "description": "Redis-backed distributed job queue for Node.js; consult when adding background jobs, retries, delays, or scheduled work to a Node service.",
+    "tags": [
+      "bullmq",
+      "queue",
+      "jobs",
+      "nodejs",
+      "redis",
+      "background-jobs"
+    ],
+    "official_sources": [
+      "https://docs.bullmq.io/",
+      "https://github.com/taskforcesh/bullmq"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "celery",
+    "path": "stacks/queue/celery/SKILL.md",
+    "domain": "stack",
+    "category": "queue",
+    "description": "Distributed task queue for Python that runs background jobs via a broker (Redis/RabbitMQ); consult for async tasks, scheduling, and worker fan-out.",
+    "tags": [
+      "celery",
+      "python",
+      "task-queue",
+      "background-jobs",
+      "redis",
+      "rabbitmq"
+    ],
+    "official_sources": [
+      "https://docs.celeryq.dev/",
+      "https://github.com/celery/celery"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "kafka",
+    "path": "stacks/queue/kafka/SKILL.md",
+    "domain": "stack",
+    "category": "queue",
+    "description": "Distributed event streaming platform with durable, replayable logs; consult for high-throughput data pipelines, event sourcing, and stream processing.",
+    "tags": [
+      "kafka",
+      "streaming",
+      "events",
+      "log",
+      "pubsub",
+      "distributed"
+    ],
+    "official_sources": [
+      "https://kafka.apache.org/documentation/",
+      "https://github.com/apache/kafka"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "nats",
+    "path": "stacks/queue/nats/SKILL.md",
+    "domain": "stack",
+    "category": "queue",
+    "description": "Lightweight high-performance messaging system with pub/sub and JetStream persistence; consult for cloud-native, edge, and microservice messaging.",
+    "tags": [
+      "nats",
+      "messaging",
+      "pubsub",
+      "jetstream",
+      "cloud-native",
+      "streaming"
+    ],
+    "official_sources": [
+      "https://docs.nats.io/",
+      "https://github.com/nats-io/nats-server"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "rabbitmq",
+    "path": "stacks/queue/rabbitmq/SKILL.md",
+    "domain": "stack",
+    "category": "queue",
+    "description": "Multi-protocol message broker (AMQP/MQTT/STOMP) for reliable async messaging; consult when decoupling services with durable queues and routing.",
+    "tags": [
+      "rabbitmq",
+      "message-broker",
+      "amqp",
+      "queue",
+      "messaging",
+      "pubsub"
+    ],
+    "official_sources": [
+      "https://www.rabbitmq.com/docs",
+      "https://github.com/rabbitmq/rabbitmq-server"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "redis",
+    "path": "stacks/queue/redis/SKILL.md",
+    "domain": "stack",
+    "category": "queue",
+    "description": "In-memory data store used as a cache, message broker, and queue backend; consult when adding caching, pub/sub, or queue infrastructure.",
+    "tags": [
+      "redis",
+      "cache",
+      "queue",
+      "pubsub",
+      "streams",
+      "in-memory"
+    ],
+    "official_sources": [
+      "https://redis.io/docs/latest/develop/",
+      "https://github.com/redis/redis"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "beam",
+    "path": "stacks/runtime/beam/SKILL.md",
+    "domain": "stack",
+    "category": "runtime",
+    "description": "The BEAM (Erlang/OTP VM) running Erlang and Elixir — built for massively scalable, fault-tolerant, soft real-time systems. Consult for concurrent/HA services.",
+    "tags": [
+      "beam",
+      "erlang",
+      "elixir",
+      "otp",
+      "concurrency",
+      "fault-tolerance"
+    ],
+    "official_sources": [
+      "https://www.erlang.org/docs",
+      "https://github.com/erlang/otp"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "bun",
+    "path": "stacks/runtime/bun/SKILL.md",
+    "domain": "stack",
+    "category": "runtime",
+    "description": "Bun — fast all-in-one JS/TS runtime, bundler, test runner, and package manager; a Node.js drop-in. Consult for fast JS/TS dev and tooling.",
+    "tags": [
+      "bun",
+      "javascript",
+      "typescript",
+      "runtime",
+      "bundler",
+      "package-manager"
+    ],
+    "official_sources": [
+      "https://bun.com/docs",
+      "https://github.com/oven-sh/bun"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "deno",
+    "path": "stacks/runtime/deno/SKILL.md",
+    "domain": "stack",
+    "category": "runtime",
+    "description": "Deno — a secure-by-default JS/TS/WebAssembly runtime with built-in tooling (fmt, lint, test) and explicit permissions. Consult for secure JS/TS runtimes.",
+    "tags": [
+      "deno",
+      "javascript",
+      "typescript",
+      "webassembly",
+      "runtime",
+      "security"
+    ],
+    "official_sources": [
+      "https://docs.deno.com/",
+      "https://github.com/denoland/deno"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "dotnet",
+    "path": "stacks/runtime/dotnet/SKILL.md",
+    "domain": "stack",
+    "category": "runtime",
+    "description": ".NET — Microsoft's free, cross-platform, open-source runtime (CoreCLR) for C#/F#/VB apps and services. Consult for installing, running, and deploying .NET.",
+    "tags": [
+      "dotnet",
+      "csharp",
+      "coreclr",
+      "runtime",
+      "cli",
+      "cross-platform"
+    ],
+    "official_sources": [
+      "https://learn.microsoft.com/dotnet/",
+      "https://github.com/dotnet/runtime"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "jvm",
+    "path": "stacks/runtime/jvm/SKILL.md",
+    "domain": "stack",
+    "category": "runtime",
+    "description": "The Java Virtual Machine — the runtime executing Java/Kotlin/Scala bytecode. Consult for JDK selection, deployment, and JVM tuning. OpenJDK builds via Temurin.",
+    "tags": [
+      "jvm",
+      "java",
+      "openjdk",
+      "temurin",
+      "bytecode",
+      "runtime"
+    ],
+    "official_sources": [
+      "https://docs.oracle.com/en/java/javase/",
+      "https://github.com/openjdk/jdk"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "node",
+    "path": "stacks/runtime/node/SKILL.md",
+    "domain": "stack",
+    "category": "runtime",
+    "description": "Node.js — the standard cross-platform JavaScript/TypeScript server runtime built on V8; consult for server/CLI/tooling work in JS.",
+    "tags": [
+      "nodejs",
+      "javascript",
+      "typescript",
+      "v8",
+      "runtime",
+      "npm"
+    ],
+    "official_sources": [
+      "https://nodejs.org/docs/latest/api/",
+      "https://github.com/nodejs/node"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "pypy",
+    "path": "stacks/runtime/pypy/SKILL.md",
+    "domain": "stack",
+    "category": "runtime",
+    "description": "PyPy — a fast, compliant alternative Python implementation with a tracing JIT. Consult when CPython performance is a bottleneck for long-running Python.",
+    "tags": [
+      "pypy",
+      "python",
+      "jit",
+      "runtime",
+      "rpython",
+      "performance"
+    ],
+    "official_sources": [
+      "https://doc.pypy.org/",
+      "https://github.com/pypy/pypy"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "python3",
+    "path": "stacks/runtime/python3/SKILL.md",
+    "domain": "stack",
+    "category": "runtime",
+    "description": "CPython — the reference Python 3 runtime for scripts, services, and data/ML work. Consult for installing, running, and packaging Python applications.",
+    "tags": [
+      "python",
+      "python3",
+      "cpython",
+      "runtime",
+      "pip",
+      "venv"
+    ],
+    "official_sources": [
+      "https://docs.python.org/3/",
+      "https://github.com/python/cpython"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "chakra-ui",
+    "path": "stacks/styling/chakra-ui/SKILL.md",
+    "domain": "stack",
+    "category": "styling",
+    "description": "Accessible React component system for building products fast, with theming and a CLI that adds component snippets; consult when styling React with Chakra.",
+    "tags": [
+      "chakra-ui",
+      "react",
+      "components",
+      "accessible",
+      "theming"
+    ],
+    "official_sources": [
+      "https://chakra-ui.com/docs",
+      "https://github.com/chakra-ui/chakra-ui"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "css-modules",
+    "path": "stacks/styling/css-modules/SKILL.md",
+    "domain": "stack",
+    "category": "styling",
+    "description": "CSS files whose class and animation names are scoped locally by default; consult when isolating component styles without naming collisions.",
+    "tags": [
+      "css-modules",
+      "css",
+      "scoping",
+      "components",
+      "build"
+    ],
+    "official_sources": [
+      "https://github.com/css-modules/css-modules"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "mui",
+    "path": "stacks/styling/mui/SKILL.md",
+    "domain": "stack",
+    "category": "styling",
+    "description": "Material UI — comprehensive React component library implementing Google's Material Design with theming and Emotion styling; consult for prebuilt MUI components.",
+    "tags": [
+      "mui",
+      "material-ui",
+      "react",
+      "components",
+      "emotion"
+    ],
+    "official_sources": [
+      "https://mui.com/material-ui/",
+      "https://github.com/mui/material-ui"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "sass",
+    "path": "stacks/styling/sass/SKILL.md",
+    "domain": "stack",
+    "category": "styling",
+    "description": "CSS preprocessor adding variables, nesting, partials, mixins, and functions that compile to plain CSS; consult when authoring maintainable stylesheets.",
+    "tags": [
+      "sass",
+      "scss",
+      "css",
+      "preprocessor",
+      "dart-sass"
+    ],
+    "official_sources": [
+      "https://sass-lang.com/documentation/",
+      "https://github.com/sass/dart-sass"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "shadcn-ui",
+    "path": "stacks/styling/shadcn-ui/SKILL.md",
+    "domain": "stack",
+    "category": "styling",
+    "description": "Accessible React components you copy into your project (built on Tailwind + Radix) via a CLI rather than installing as a dependency; consult for owned UI code.",
+    "tags": [
+      "shadcn-ui",
+      "react",
+      "tailwind",
+      "radix",
+      "components"
+    ],
+    "official_sources": [
+      "https://ui.shadcn.com/docs",
+      "https://github.com/shadcn-ui/ui"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "styled-components",
+    "path": "stacks/styling/styled-components/SKILL.md",
+    "domain": "stack",
+    "category": "styling",
+    "description": "CSS-in-JS for React using tagged template literals to attach scoped styles to components; consult when styling React with co-located CSS.",
+    "tags": [
+      "styled-components",
+      "css-in-js",
+      "react",
+      "theming",
+      "ssr"
+    ],
+    "official_sources": [
+      "https://styled-components.com/docs",
+      "https://github.com/styled-components/styled-components"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "tailwind",
+    "path": "stacks/styling/tailwind/SKILL.md",
+    "domain": "stack",
+    "category": "styling",
+    "description": "Utility-first CSS framework that styles UI from small composable classes in markup; consult when building or theming with Tailwind.",
+    "tags": [
+      "tailwind",
+      "css",
+      "utility-first",
+      "vite",
+      "design-system"
+    ],
+    "official_sources": [
+      "https://tailwindcss.com/docs",
+      "https://github.com/tailwindlabs/tailwindcss"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "unocss",
+    "path": "stacks/styling/unocss/SKILL.md",
+    "domain": "stack",
+    "category": "styling",
+    "description": "Instant on-demand atomic CSS engine with no core utilities, fully customizable via presets and rules; consult when building atomic CSS fast and small.",
+    "tags": [
+      "unocss",
+      "atomic-css",
+      "presets",
+      "vite",
+      "utility"
+    ],
+    "official_sources": [
+      "https://unocss.dev/",
+      "https://github.com/unocss/unocss"
+    ],
+    "verified": "2026-06-16"
+  },
+  {
+    "name": "vanilla-extract",
+    "path": "stacks/styling/vanilla-extract/SKILL.md",
+    "domain": "stack",
+    "category": "styling",
+    "description": "Zero-runtime stylesheets authored in TypeScript that compile to static CSS with locally-scoped, type-safe styles; consult for type-safe CSS in builds.",
+    "tags": [
+      "vanilla-extract",
+      "css-in-js",
+      "typescript",
+      "zero-runtime",
+      "scoped"
+    ],
+    "official_sources": [
+      "https://vanilla-extract.style/documentation/getting-started/",
+      "https://github.com/vanilla-extract-css/vanilla-extract"
+    ],
+    "verified": "2026-06-16"
+  }
+]
