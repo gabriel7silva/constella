@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 360" width="360" height="360" role="img" aria-label="black hole — context as gravity">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0a0820"/>
+      <stop offset="100%" stop-color="#050416"/>
+    </radialGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="70%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#1a0f3a"/>
+    </radialGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#e879f9"/>
+      <stop offset="0.4" stop-color="#a78bfa"/>
+      <stop offset="0.7" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <filter id="bh" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="4"/></filter>
+  </defs>
+  <rect width="360" height="360" fill="url(#bg)"/>
+  <g transform="translate(180 180)">
+    <g filter="url(#bh)">
+      <ellipse rx="150" ry="44" fill="none" stroke="url(#ring)" stroke-width="10" opacity="0.85">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="12s" repeatCount="indefinite"/>
+      </ellipse>
+      <ellipse rx="150" ry="44" fill="none" stroke="url(#ring)" stroke-width="4" opacity="0.5" transform="rotate(60)">
+        <animateTransform attributeName="transform" type="rotate" from="60" to="420" dur="18s" repeatCount="indefinite"/>
+      </ellipse>
+    </g>
+    <circle r="62" fill="url(#core)"/>
+    <circle r="62" fill="none" stroke="#1a0f3a" stroke-width="2"/>
+    <circle r="70" fill="none" stroke="#22d3ee" stroke-width="1" opacity="0.4">
+      <animate attributeName="r" values="64;80;64" dur="5s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.5;0;0.5" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

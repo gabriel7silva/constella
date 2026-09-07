@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 620" width="640" height="620" role="img" aria-label="Constella control plane and its orbiting agent constellation">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#140e33"/>
+      <stop offset="100%" stop-color="#050416"/>
+    </radialGradient>
+    <linearGradient id="hub" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#a78bfa"/>
+      <stop offset="0.5" stop-color="#22d3ee"/>
+      <stop offset="1" stop-color="#e879f9"/>
+    </linearGradient>
+    <filter id="gl" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="640" height="620" fill="url(#sky)"/>
+
+  <!-- orbit rings -->
+  <g fill="none" stroke="#3b3168" stroke-width="1.2" opacity="0.8">
+    <circle cx="320" cy="320" r="120" stroke-dasharray="4 8"><animateTransform attributeName="transform" type="rotate" from="0 320 320" to="360 320 320" dur="40s" repeatCount="indefinite"/></circle>
+    <circle cx="320" cy="320" r="245" stroke-dasharray="3 10"><animateTransform attributeName="transform" type="rotate" from="360 320 320" to="0 320 320" dur="70s" repeatCount="indefinite"/></circle>
+  </g>
+
+  <!-- spokes -->
+  <g stroke="#22d3ee" stroke-width="0.7" opacity="0.18">
+    <line x1="320" y1="320" x2="320" y2="200"/><line x1="320" y1="320" x2="216" y2="380"/><line x1="320" y1="320" x2="424" y2="380"/>
+    <line x1="320" y1="320" x2="320" y2="75"/><line x1="320" y1="320" x2="129" y2="167"/><line x1="320" y1="320" x2="81" y2="375"/>
+    <line x1="320" y1="320" x2="214" y2="541"/><line x1="320" y1="320" x2="426" y2="541"/><line x1="320" y1="320" x2="559" y2="375"/><line x1="320" y1="320" x2="511" y2="167"/>
+  </g>
+
+  <!-- central control plane -->
+  <g filter="url(#gl)">
+    <polygon points="320,288 352,320 320,352 288,320" fill="url(#hub)"/>
+  </g>
+  <text x="320" y="378" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="14" font-weight="700" fill="#e2e8f0">CONSTELLA</text>
+  <text x="320" y="394" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="9" fill="#64748b" letter-spacing="2">CONTROL PLANE</text>
+
+  <!-- agent nodes -->
+  <g font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#cbd5e1" text-anchor="middle">
+    <g><circle cx="320" cy="200" r="6.5" fill="#e879f9" filter="url(#gl)"/><text x="320" y="184">Ada · CEO</text></g>
+    <g><circle cx="216" cy="380" r="6" fill="#e879f9"/><text x="196" y="398">Linus · CTO</text></g>
+    <g><circle cx="424" cy="380" r="6" fill="#22d3ee"/><text x="448" y="398">Donald · PO</text></g>
+    <g><circle cx="320" cy="75" r="6" fill="#22d3ee"/><text x="320" y="60">Margaret · Backend</text></g>
+    <g><circle cx="129" cy="167" r="6" fill="#22d3ee"/><text x="129" y="152">Grace · Frontend</text></g>
+    <g><circle cx="81" cy="375" r="6" fill="#22d3ee"/><text x="78" y="359">Edsger · QA</text></g>
+    <g><circle cx="214" cy="541" r="6" fill="#22d3ee"/><text x="214" y="562">Werner · DevOps</text></g>
+    <g><circle cx="426" cy="541" r="6" fill="#a78bfa"/><text x="426" y="562">Barbara · Docs</text></g>
+    <g><circle cx="559" cy="375" r="6.5" fill="#e879f9" filter="url(#gl)"/><text x="559" y="359">Whitfield · CyberSec</text></g>
+    <g><circle cx="511" cy="167" r="6" fill="#a78bfa"/><text x="511" y="152">Vannevar · Knowledge</text></g>
+  </g>
+
+  <!-- travelling photon on the inner orbit -->
+  <circle r="3.5" fill="#ffffff" filter="url(#gl)">
+    <animateMotion dur="9s" repeatCount="indefinite" path="M 320 200 A 120 120 0 1 1 320 440 A 120 120 0 1 1 320 200"/>
+  </circle>
+</svg>

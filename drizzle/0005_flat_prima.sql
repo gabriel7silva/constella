@@ -1,0 +1,1 @@
+ALTER TABLE `agent` ADD `effort` text DEFAULT 'medium' NOT NULL;

@@ -1,0 +1,11 @@
+# Normalize line endings — keep LF in the repo, scripts stay executable on *nix.
+* text=auto eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.gguf binary
+*.mjs text eol=lf
+*.sh text eol=lf

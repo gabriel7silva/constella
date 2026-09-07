@@ -1,0 +1,49 @@
+# package.json "files" is the authoritative allowlist; this is belt-and-suspenders so nothing
+# internal/sensitive ever ships in the npm tarball even if "files" is widened.
+# NOTE: .next is INTENTIONALLY shippable now (the compiled build is the product); it is NOT listed here.
+# But ship ONLY the production output — exclude the dev-server artifacts (huge logs), the build cache,
+# and trace files. `next start` needs .next/server + .next/static + .next/build + the JSON manifests.
+.next/dev
+.next/cache
+.next/trace
+.constella
+.env
+.env.*
+*.db
+*.db-*
+*.log
+node_modules
+coverage
+.cache
+backups/
+
+# Source is never published — the package ships the COMPILED .next, not src/.
+src/
+
+# Internal release guide (names the private dev backup remote) — never ships.
+docs/en/PUBLISHING.md
+docs/pt/PUBLISHING.md
+
+# Internal planning layer + scratch (never published)
+DOCS/
+PO/
+Reports/
+specs/
+issues/
+mock/
+uploads/
+archives/
+.testdev/
+temp_*
+Constella App.html
+extracted_design_system.css
+
+# Dev tooling / tests
+playwright.config.ts
+e2e/
+tests/
+.vscode/
+.github/
+
+# Local release scripts (operator-only; not part of the shipped package)
+release/
